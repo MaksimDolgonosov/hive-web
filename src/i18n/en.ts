@@ -33,6 +33,9 @@ const en = {
     comingSoon: 'Coming soon',
     appStore: 'App Store',
     googlePlay: 'Google Play',
+    qrTitle: 'Download on {{store}}',
+    qrBody: 'Point your phone camera at the code. It opens the same page as the button.',
+    close: 'Close',
   },
   footer: {
     tagline: 'Hive — a social map of moments',

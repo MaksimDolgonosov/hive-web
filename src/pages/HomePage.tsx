@@ -27,13 +27,15 @@ export function HomePage() {
             <StoreButtons />
           </div>
           <div className="hero-art">
-            <img
-              src="/illustrations/map.webp"
-              alt=""
-              width={ART_SIZE}
-              height={ART_SIZE}
-              fetchPriority="high"
-            />
+            <div className="hero-frame">
+              <img
+                src="/illustrations/map.webp"
+                alt=""
+                width={ART_SIZE}
+                height={ART_SIZE}
+                fetchPriority="high"
+              />
+            </div>
           </div>
         </section>
 

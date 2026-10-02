@@ -33,6 +33,9 @@ const ru = {
     comingSoon: 'Скоро',
     appStore: 'App Store',
     googlePlay: 'Google Play',
+    qrTitle: 'Скачать в {{store}}',
+    qrBody: 'Наведите камеру телефона на код. Он откроет ту же страницу, что и кнопка.',
+    close: 'Закрыть',
   },
   footer: {
     tagline: 'Hive — социальная карта моментов',

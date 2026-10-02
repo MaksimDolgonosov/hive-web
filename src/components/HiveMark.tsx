@@ -3,14 +3,13 @@ type HiveMarkProps = {
 };
 
 export function HiveMark({ size = 32 }: HiveMarkProps) {
-  const radius = Math.round(size * 0.223);
+  const radius = Math.round(size * 0.28);
 
   return (
     <span className="mark" style={{ width: size, height: size, borderRadius: radius }}>
-      <svg className="mark-light" viewBox="0 0 24 24" aria-hidden="true">
-        <path fill="#FFFFFF" d="M12 2.2 20.2 7v10L12 21.8 3.8 17V7L12 2.2Z" />
+      <svg className="mark-hex" viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z" />
       </svg>
-      <img className="mark-dark" src="/icon.png" alt="" width={size} height={size} />
     </span>
   );
 }

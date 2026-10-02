@@ -19,7 +19,9 @@ export function NotFoundPage() {
         <h1>{t('notFound.title')}</h1>
         <p className="lede">{t('notFound.body')}</p>
         <p>
-          <Link to={withLang('/', lang)}>{t('notFound.home')}</Link>
+          <Link className="button" to={withLang('/', lang)}>
+            {t('notFound.home')}
+          </Link>
         </p>
       </article>
     </>

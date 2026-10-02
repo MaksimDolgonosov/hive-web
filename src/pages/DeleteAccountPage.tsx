@@ -22,7 +22,7 @@ export function DeleteAccountPage() {
         <section>
           <h2>{t('delete.inAppTitle')}</h2>
           <p>{t('delete.inAppLead')}</p>
-          <ol>
+          <ol className="steps">
             <li>{t('delete.step1')}</li>
             <li>{t('delete.step2')}</li>
             <li>{t('delete.step3')}</li>

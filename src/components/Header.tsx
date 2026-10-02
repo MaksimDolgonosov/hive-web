@@ -12,8 +12,8 @@ export function Header() {
     <header className="site-header">
       <div className="wrap header-inner">
         <Link className="brand" to={withLang('/', lang)} aria-label={t('nav.home')}>
-          <HiveMark />
-          <span className="wordmark">HIVE</span>
+          <HiveMark size={36} />
+          <span className="wordmark">Hive</span>
         </Link>
         <LanguageSwitch />
       </div>

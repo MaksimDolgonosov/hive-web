@@ -7,6 +7,24 @@ RewriteEngine On
 RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
 RewriteRule ^ https://%1%{REQUEST_URI} [L,R=301]
 
+# App Links and Universal Links must stay JSON. The SPA fallback below
+# would otherwise answer these URLs with index.html.
+RewriteRule ^\.well-known/ - [L]
+
+<Files "apple-app-site-association">
+  ForceType application/json
+</Files>
+
+<Files "assetlinks.json">
+  ForceType application/json
+</Files>
+
+<IfModule mod_headers.c>
+  <Files "apple-app-site-association">
+    Header set Content-Type "application/json"
+  </Files>
+</IfModule>
+
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^ index.html [L]

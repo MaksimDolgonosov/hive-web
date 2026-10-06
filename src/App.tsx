@@ -1,5 +1,6 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
+import { CookieConsent } from './components/CookieConsent';
 import { Footer } from './components/Footer';
 import { Header } from './components/Header';
 import { useSiteI18n } from './i18n/useSiteI18n';
@@ -32,6 +33,7 @@ function Layout() {
         </Routes>
       </main>
       <Footer />
+      <CookieConsent />
     </>
   );
 }

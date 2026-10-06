@@ -37,6 +37,12 @@ const en = {
     qrBody: 'Point your phone camera at the code. It opens the same page as the button.',
     close: 'Close',
   },
+  cookies: {
+    title: 'Cookies',
+    body: 'Hive does not use advertising or analytics cookies. We only remember this choice on your device.',
+    accept: 'Accept cookies',
+    reject: 'Reject',
+  },
   footer: {
     tagline: 'Hive — a social map of moments',
     nav: 'Site',

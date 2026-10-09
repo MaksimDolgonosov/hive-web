@@ -30,7 +30,7 @@ export const privacyPolicyByLanguage: Record<PrivacyPolicyLanguage, PrivacyPolic
         blocks: [
           {
             type: 'paragraph',
-            text: 'Оператор Приложения — Hive. Приложение распространяется в App Store и Google Play с идентификаторами com.hive.app. По вопросам персональных данных пишите на hive.app.site@gmail.com.',
+            text: 'Оператор Приложения — Hive. Приложение распространяется в App Store и Google Play с идентификаторами site.hiveapp.app. По вопросам персональных данных пишите на hive.app.site@gmail.com.',
           },
           {
             type: 'paragraph',
@@ -289,7 +289,7 @@ export const privacyPolicyByLanguage: Record<PrivacyPolicyLanguage, PrivacyPolic
         blocks: [
           {
             type: 'paragraph',
-            text: 'По вопросам конфиденциальности, доступа, исправления или удаления данных: hive.app.site@gmail.com. Приложение: Hive. Идентификатор: com.hive.app. Платформы: iOS и Android.',
+            text: 'По вопросам конфиденциальности, доступа, исправления или удаления данных: hive.app.site@gmail.com. Приложение: Hive. Идентификатор: site.hiveapp.app. Платформы: iOS и Android.',
           },
         ],
       },
@@ -305,7 +305,7 @@ export const privacyPolicyByLanguage: Record<PrivacyPolicyLanguage, PrivacyPolic
         blocks: [
           {
             type: 'paragraph',
-            text: 'The operator of the App is Hive. The App is distributed on the App Store and Google Play under the identifier com.hive.app. For privacy questions, email hive.app.site@gmail.com.',
+            text: 'The operator of the App is Hive. The App is distributed on the App Store and Google Play under the identifier site.hiveapp.app. For privacy questions, email hive.app.site@gmail.com.',
           },
           {
             type: 'paragraph',
@@ -564,7 +564,7 @@ export const privacyPolicyByLanguage: Record<PrivacyPolicyLanguage, PrivacyPolic
         blocks: [
           {
             type: 'paragraph',
-            text: 'For privacy, access, correction, or deletion requests: hive.app.site@gmail.com. App: Hive. Identifier: com.hive.app. Platforms: iOS and Android.',
+            text: 'For privacy, access, correction, or deletion requests: hive.app.site@gmail.com. App: Hive. Identifier: site.hiveapp.app. Platforms: iOS and Android.',
           },
         ],
       },

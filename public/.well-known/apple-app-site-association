@@ -3,9 +3,9 @@
     "apps": [],
     "details": [
       {
-        "appID": "REPLACE_WITH_APPLE_TEAM_ID.com.hive.app",
+        "appID": "REPLACE_WITH_APPLE_TEAM_ID.site.hiveapp.app",
         "paths": ["/i/*", "/p/*"],
-        "appIDs": ["REPLACE_WITH_APPLE_TEAM_ID.com.hive.app"],
+        "appIDs": ["REPLACE_WITH_APPLE_TEAM_ID.site.hiveapp.app"],
         "components": [{ "/": "/i/*" }, { "/": "/p/*" }]
       }
     ]
